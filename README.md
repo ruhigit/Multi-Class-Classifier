@@ -10,7 +10,7 @@ To learn a classification model from the training data file,software will be inv
 
 python3 nblearn.py TRAININGFILE MODELFILE
 
-where TRAININGFILE is the name of the training file (this should be spam_training.txt for the spam dataset, and sentiment_training.txt for the sentiment dataset), MODELFILE is the name of the file that will contain the model that the classifier will learn (for the spam dataset the file name should be spam.nb, and sentiment.nb for the sentiment dataset).
+where TRAININGFILE is the name of the training file (this could be spam_training.txt for the spam dataset, and sentiment_training.txt for the sentiment dataset), MODELFILE is the name of the file that will contain the model that the classifier will learn (for the spam dataset the file name could be spam.nb, and sentiment.nb for the sentiment dataset).
 To classify a file with new documents, software will be invoked in the following way:
 
 python3 nbclassify.py MODELFILE TESTFILE
