@@ -1,6 +1,27 @@
-# Multi-Class-Classifier
+# Multi-Class-Classifier #
 Created text classifier and applied it to two datasets corresponding to two tasks: (1) spam filtering, and (2) sentiment analysis.
+This repository contains the files: nblearn.py, nbclassify.py, spam.nb, sentiment.nb, spam.out, sentiment.out, and createTrainingFile.py code for generating the training file from the training documents and createTestfile.py for generating the test file from the test documents.
 One file with source code to learn the model (nblearn.py) and one file with source code to classify new text (nbclassify.py).
+
+##Description of each file##
+
+createTrainingfile.py This file is used to generate the training file from a directory specified inside the code itself.
+
+createTestFile.py This file is used to generate the test file from a directory specified inside the code itself.
+
+nbclassify.py This mile contains the code to classify new text which has the model file as input.
+
+nblearn.py This file contains the code to create a model file from the training file given as input.
+
+spam.nb This file is created as the output of nblearn.py for the spam dataset which contains the learned model from training set.
+
+spam.out This file is created as the output of nbclassify.py for the spam dataset which contains the output labels from test set.
+
+sentiment.nb This file is created as the output of nblearn.py for the sentiment dataset which contains the learned model from training set.
+
+sentiment.out This file is created as the output of nbclassify.py for the sentiment dataset which contains the output labels from test set.
+
+### Explaination ###
 Training file could look like this:
 
 HAM subject : meeting today hi , could we have a meeting today . thank you . 
